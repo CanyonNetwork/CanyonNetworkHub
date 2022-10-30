@@ -8,7 +8,6 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Adds "this" for "this.main" to work.
         if (instance == null) instance = this;
 
         this.getServer().getPluginManager().registerEvents(new canyonnetwork.net.canyonnetworkhub.Events.JoinEvent(this), this);
