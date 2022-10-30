@@ -15,7 +15,6 @@ public class JoinEvent implements Listener {
         this.main = main;
     }
 
-    // Join event
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
