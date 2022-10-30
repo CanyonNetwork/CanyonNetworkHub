@@ -1,0 +1,7 @@
+name: CanyonNetworkHub
+version: '${project.version}'
+main: canyonnetwork.net.canyonnetworkhub.Main
+api-version: 1.17
+authors: [ Fwoosty, Someone ]
+description: The core plugin for CanyonNetwork's Hub.
+website: canyonnetwork.net
